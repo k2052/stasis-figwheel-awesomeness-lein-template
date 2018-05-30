@@ -1,4 +1,4 @@
-(defproject stasis-figwheel-awesomeness/lein-template "0.1.1-SNAPSHOT"
+(defproject stasis-figwheel-awesomeness/lein-template "0.1.1"
   :description "An extremely awesome static site template. Uses stasis"
   :url "http://github.com/k2052/stasis-figwheel-awesomeness-lein-template"
   :license {:name "Eclipse Public License"
