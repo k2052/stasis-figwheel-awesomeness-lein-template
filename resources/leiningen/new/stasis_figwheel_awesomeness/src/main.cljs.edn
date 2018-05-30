@@ -1,0 +1,4 @@
+{:require  [{{name}}.app.main]
+ :init-fns [{{name}}.app.main/init]
+ :compiler-options {:output-to "public/js/app.js"}}
+ :boot-reload {:on-jsload {{name}}.app.main/start}}

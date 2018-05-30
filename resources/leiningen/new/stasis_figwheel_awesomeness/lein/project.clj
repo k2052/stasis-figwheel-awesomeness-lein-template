@@ -1,0 +1,15 @@
+(defproject {{name}} "0.0.1"
+  :dependencies [[org.clojure/clojure "1.9.0"]
+                 [bidi "2.1.3"]
+                 [ring "1.6.3"]
+                 [ring/ring-defaults "0.3.1"]
+                 [compojure "1.6.1"]
+                 [hiccup "1.0.5"]
+                 [optimus "0.20.1"]
+                 [rum "0.11.2"]
+                 [stasis "2.3.0"]
+                 [garden "1.3.5"]
+                 [hawk "0.2.11"]
+                 [org.clojure/clojurescript "1.10.238"]]
+  :plugins []
+  :source-paths ["src" "cli"])

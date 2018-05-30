@@ -1,0 +1,30 @@
+{
+  "name": "{{name}}",
+  "version": "0.0.1",
+  "description": "A static site built on stasis",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "lein run -m build.main/watch",
+    "build": "lein run -m build.main/build",
+    "serve": "http-server dist -s",
+    "start": "clj -m backend",
+    "repl": "lein repl",
+    "deploy": "now dist/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/k2052/harmless.git"
+  },
+  "author": "k-2052",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/k2052/harmless/issues"
+  },
+  "homepage": "https://github.com/k2052/harmless#readme",
+  "dependencies": {
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "shadow-cljs": "^2.3.21"
+  }
+}
