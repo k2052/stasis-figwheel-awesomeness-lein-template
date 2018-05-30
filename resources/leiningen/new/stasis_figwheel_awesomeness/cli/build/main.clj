@@ -24,5 +24,4 @@
 
 (defn build []
   (sh! "boot build")
-  (sh! "lein cljsbuild once release")
   (export))
